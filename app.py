@@ -10,7 +10,7 @@ def hello():
 
 @app.route('/<name>')
 def hello_name(name):
-   return render_template("user.html",user=name)
+   return render_template("user.html",name=name)
 
 if __name__ == '__main__':
    app.run(debug = True)    
