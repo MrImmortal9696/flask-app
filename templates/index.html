@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     This is my first web page
-</body>
+    <br />
+    {{stuff |safe}} {{li}}
+
+    <br />
+
+    {% for i in li %} {{i}}
+    <br />
+    {%endfor%}
+  </body>
 </html>
